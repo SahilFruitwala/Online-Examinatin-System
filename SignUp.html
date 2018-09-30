@@ -1,0 +1,105 @@
+<html>
+<head>
+    <script src="SignUp.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <title>Online Examination SYSTEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            font-family: 'Arvo', serif;
+            font-weight:bold;
+            background:linear-gradient(to right,#00c3ff,#ffff1c);
+        }
+        .set
+        {
+            position:absolute;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 50vh;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            border-radius:10px;
+            background-color:white;
+        }
+        input
+        {
+            font-family: 'Arvo', serif;
+            width:36vh;
+            height:30px;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            border-bottom-color:Gainsboro;
+            transition-property: border-bottom-color;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+        }
+        input:hover
+        {
+            border-bottom-color:black;
+        }
+        .button1
+        {
+            font-family: 'Arvo', serif;
+            font-weight:bold;
+            transition: 0.5s;
+            border-radius:25px;
+            width:36vh;
+            height:30px;
+            background:#00c3ff;
+            transition-property: background;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+        }
+        .button1:hover
+        {
+            background:#ffff1c;
+        }
+        .set:hover
+        {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+        }
+        a
+        {
+            text-decoration:none;
+            color:black;
+        }
+        input:focus
+        {
+            outline:white;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="set">
+        <br/>
+        <br/>
+        SIGN UP
+        <br/>
+        <form method="post" action="SignUp.jsp">
+            <table cellpadding="0">
+                <tr><td style="font-size:13px">Name</td></tr>
+                <tr><td ><input type="text" placeholder="Enter Your Name" name="t3" required></input><br/><br/></td></tr>
+                <tr><td style="font-size:13px">Enrollment No.</td></tr>
+                <tr><td ><input type="text" placeholder="Enter Your Enrollment No." name="t4" id="cid" required></input><br/><br/></td></tr>
+                <tr><td style="font-size:13px">Semester</td></tr>
+                <tr><td ><input type="text" placeholder="Enter Your Semester" name="t5" required></input><br/><br/></td></tr>
+                <tr><td style="font-size:13px">Password</td></tr>
+                <tr><td ><input type="password" placeholder="Enter Your Password" name="t6" id="pass" required></input><br/><br/></td></tr>
+                <tr><td><input type="submit" class="button1" value="VERIFY EMAIL" onclick="display1()" name="sub2"></input><br/><br/></td></tr>
+                <tr><td style="font-size:13px ; display:none;" id="otp">Recovery Question</td></tr>
+				<tr><td ><input type="text" placeholder="Type Recovery Question" style="display:none" id="totp" name="reco" required></input><br/></td></tr>
+				<tr><td ><input type="text" placeholder="Type Answer" style="display:none" id="totp1" name="ans" required></input><br/></td></tr>
+				<tr><td><input type="submit" class="button1" value="SUBMIT" style="display:none"  id="sub1" name="sub"></input></td></tr><br/><br/>
+            </table>
+        </form>
+        </br>
+        </br>
+        </br>
+    </div>
+</center>
+</body>
+</html>

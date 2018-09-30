@@ -1,0 +1,113 @@
+body
+{
+    font-family: 'Arvo', serif;
+    font-weight:bold;
+    background:linear-gradient(to right,#00c3ff,#ffff1c);
+}
+.set
+{
+    position:absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50vh;
+    top:50%;
+    left:35%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+    background-color:white;
+}
+.set3
+{
+    position:absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50vh;
+    top:50%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+    background-color:white;
+}
+.set0
+{
+    position:absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	top:50%;
+    left:30%;
+    border-radius:10px;
+    background-color:white;
+}
+.set1
+{
+    position:absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50vh;
+    top:50%;
+    left:65%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+    background-color:white;
+}
+.set2
+{
+    position:absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50vh;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+    background-color:white;
+}
+input
+{
+    font-family: 'Arvo', serif;
+    width:36vh;
+    height:30px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color:Gainsboro;
+    transition-property: border-bottom-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    outline:none;
+}
+input:hover
+{
+    border-bottom-color:black;
+}
+#button1
+{
+    font-family: 'Arvo', serif;
+    font-weight:bold;
+    transition: 0.5s;
+    border-radius:25px;
+    width:36vh;
+    height:30px;
+    background:#00c3ff;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    outline:none;
+}
+#button1:hover
+{
+    background:#ffff1c;
+}
+.set:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+a
+{
+    text-decoration:none;
+    color:black;
+}
+input:focus
+{
+    outline:white;
+}

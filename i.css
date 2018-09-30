@@ -1,0 +1,45 @@
+body
+{
+    background-image: url("back.jpg");
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.set
+{
+    position:fixed;
+    top:2%;
+    right:2%;
+}
+#t
+{
+    position: fixed;
+    width:100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(21, 67, 96,0.7);
+    font-size:50px;
+    font-family:'Arvo', serif;
+    color:white;
+    font-weight:bold;
+}
+button
+{
+    color:white;
+    font-family: 'Arvo', serif;
+    font-weight:bold;
+    transition: 0.5s;
+    border-radius:25px;
+    width:20vh;
+    height:35px;
+    background:rgba(21, 67, 96,0.7);
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    outline:none;
+}
+button:hover
+{
+    background:rgba(186, 74, 0,0.7);
+}

@@ -1,2 +1,2 @@
-# Online-Examinatin-System
-Online MCQ Examination
+# Basic-Online-Exam
+Basic / Simplest Online Examination System 

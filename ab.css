@@ -1,0 +1,31 @@
+body
+{
+	background:linear-gradient(to right,#00c3ff,#ffff1c);
+}
+table
+{
+	font-family: 'Arvo', serif;
+}
+.set
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 35vh;
+	border-radius:10px;
+	background-color:white;
+}
+.set:hover
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+	width:55vh;
+}
+img
+{
+	height:20vh;
+	border-radius:50%;
+	transition: 0.3s;
+}
+img:hover
+{
+	height:40vh;
+}
